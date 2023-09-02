@@ -1,0 +1,9 @@
+name: 'Update Dependencies and Open MR'
+description: 'Automatically updates dependencies and opens a merge request'
+inputs:
+  github-token:
+    description: 'GitHub token'
+    required: true
+runs:
+  using: 'node16'
+  main: 'index.js'
