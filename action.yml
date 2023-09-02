@@ -1,5 +1,8 @@
 name: 'Update Dependencies and Open MR'
 description: 'Automatically updates dependencies and opens a merge request'
+branding:
+  icon: 'git-pull-request'
+  color: 'yellow'
 inputs:
   github-token:
     description: 'GitHub token'
